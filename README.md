@@ -28,6 +28,7 @@ $$
 ### Content Image
 <img src="data/raw/content/house.jpg" width="256"/>
 
+---
 ### Style Image
 <img src="data/raw/style/vincent-van-gogh.jpg" width="256"/>
 
@@ -35,10 +36,6 @@ $$
 <img src="outputs/images/vicent-van-gogh-result.png" width="256"/>
 
 ---
-
-### Content Image
-<img src="data/raw/content/house.jpg" width="256"/>
-
 ### Style Image
 <img src="data/raw/style/the-scream.webp" width="256"/>
 
@@ -46,10 +43,6 @@ $$
 <img src="outputs/images/the-scream-result.png" width="256"/>
 
 ---
-
-### Content Image
-<img src="data/raw/content/house.jpg" width="256"/>
-
 ### Style Image
 <img src="data/raw/style/feranad-leger.jpg" width="256"/>
 
@@ -59,7 +52,7 @@ $$
 ---
 
 ## Project Structure
-
+```
 image-style-transfer/
 ├── notebooks/
 │ └── 01_exploration.ipynb
@@ -78,6 +71,7 @@ image-style-transfer/
 │ └── run_exp.sh
 ├── requirements.txt
 └── README.md
+```
 
 ---
 
