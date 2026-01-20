@@ -1,0 +1,12 @@
+# Core deep learning
+torch>=2.0
+torchvision>=0.15
+
+# Image processing
+Pillow>=9.0
+
+# Experiment config
+PyYAML>=6.0
+
+# Visualization (optional)
+matplotlib>=3.7

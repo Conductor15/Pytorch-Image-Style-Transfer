@@ -1,0 +1,27 @@
+experiment:
+  name: exp_02
+  description: "Van Gogh style on city image"
+
+data:
+  content_path: data/raw/content/house.jpg
+  style_path: data/raw/style/vincent-van-gogh.jpg
+
+image:
+  size: 256
+
+optimization:
+  steps: 1000
+  learning_rate: 0.01
+
+loss:
+  content_weight: 1.0
+  style_weight: 10000000.0
+  style_layers:
+    conv1: 1.0
+    conv2: 0.8
+    conv3: 0.5
+    conv4: 0.3
+    conv5: 0.1
+
+output:
+  path: experiments/exp_02/result.png
